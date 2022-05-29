@@ -1,0 +1,24 @@
+{
+  "name": "highchartsvueexample",
+  "version": "1.0.0",
+  "description": "To incoporate highcharts in vue",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"hello\"",
+    "start": "node app",
+    "build": "webpack"
+  },
+  "author": "zubair",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "highcharts": "^10.1.0",
+    "vue": "^3.2.36"
+  },
+  "devDependencies": {
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
