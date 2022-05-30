@@ -4,7 +4,7 @@
   "description": "To incoporate highcharts in vue",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"hello\"",
+    "test": "echo \"hello test\"",
     "start": "node app",
     "build": "webpack",
     "buildRun": "webpack & node app"
