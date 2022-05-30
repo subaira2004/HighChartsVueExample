@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"hello\"",
     "start": "node app",
-    "build": "webpack"
+    "build": "webpack",
+    "buildRun": "webpack & node app"
   },
   "author": "zubair",
   "license": "MIT",
@@ -16,7 +17,9 @@
     "vue": "^3.2.36"
   },
   "devDependencies": {
+    "css-loader": "^6.7.1",
     "vue-loader": "^17.0.0",
+    "vue-style-loader": "^4.1.3",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
