@@ -11,5 +11,5 @@ app.get('/',(req,res)=>{
 });
 
 app.listen(port,()=>{
-    console.log('app has been stared and running as localhost:'+port)
+    console.log('app has been stared & running as localhost:'+port)
 });
