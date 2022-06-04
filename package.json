@@ -7,7 +7,8 @@
     "test": "echo \"hello\"",
     "start": "node app",
     "build": "webpack",
-    "buildRun": "webpack & node app"
+    "buildRun": "webpack & node app",
+    "startRun":"node app & firefox http://localhost:3000"
   },
   "author": "zubair",
   "license": "MIT",
